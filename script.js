@@ -25,3 +25,13 @@ arr.forEach(button => {
         
     })
 })
+
+const gradients = [
+    'linear-gradient(45deg, #450800, #472a26)',
+    'linear-gradient(45deg, #0a0d0d, #014544)',
+    'linear-gradient(45deg, #241e3d, #0e0145)',
+    'linear-gradient(45deg, #370142, #3c1b42)',
+    'linear-gradient(45deg, #0a0a0a, #3a4452)'
+];
+
+document.body.style.background = gradients[Math.floor(Math.random() * gradients.length)];
